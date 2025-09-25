@@ -4,19 +4,21 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int x,y,z,m;
 	
-	int a, b, c;
+	int k, j;
 	
-	x=2;
-	z=1;
-	a=3;
-	b=4;
-	c=5;
+	printf("input two integers : ");
+	scanf("%d", "%d", &k, &j);
 	
-	y=a*x*x+b*x+c;
-	m=(x+y+z)/3;
+	printf("+ result is %d\n", k+j);
 	
-	printf("y=%d, m=%d", y, m);
+	printf("- result is %d\n", k-j);
+	
+	printf("* result is %d\n", k*j);
+	
+	printf("/ result is %d\n", k/j);
+	
+	printf("%% result is %d\n", k%j);
+	
 	return 0;
 }
